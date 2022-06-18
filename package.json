@@ -1,12 +1,12 @@
 {
   "name": "native-compress-lib",
-  "version": "0.1.0",
+  "version": "0.3.5",
   "description": "native-compress-lib",
   "main": "lib/commonjs/index",
+  "main-internal": "src/index.ts",
+  "react-native": "src/index.ts",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
-  "react-native": "src/index",
-  "source": "src/index",
   "files": [
     "src",
     "lib",
@@ -14,6 +14,7 @@
     "ios",
     "cpp",
     "native-compress-lib.podspec",
+    "react-native.config.js",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
