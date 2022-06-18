@@ -1,6 +1,6 @@
 {
   "name": "native-compress-lib",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "native-compress-lib",
   "main": "lib/commonjs/index",
   "main-internal": "src/index.ts",

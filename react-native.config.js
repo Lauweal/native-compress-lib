@@ -1,11 +1,9 @@
+// react-native.config.js
 module.exports = {
   dependency: {
-    'native-compress-lib': {
-      root: __dirname,
-      platforms: {
-        macos: null,
-        windows: null
-      },
+    platforms: {
+      macos: null, // disable Android platform, other platforms will still autolink if provided
+      windows: null
     },
   },
 };
